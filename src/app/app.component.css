@@ -9,10 +9,12 @@ div {
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+  flex-direction: column;
 }
 .box {
   width: 60%;
   height: 60%;
+  margin-top: 2rem;
 }
 
 .button {
@@ -21,4 +23,7 @@ div {
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
+}
+.divincontainer {
+  width: 100%;
 }
