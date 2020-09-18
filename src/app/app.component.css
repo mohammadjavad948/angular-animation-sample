@@ -1,0 +1,24 @@
+div {
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 60vh;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.box {
+  width: 60%;
+  height: 60%;
+}
+
+.button {
+  background: pink;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}

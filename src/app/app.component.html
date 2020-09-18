@@ -1,0 +1,11 @@
+<div>
+  <button (click)="stat = !stat" class="button">
+    click me!
+    <br />
+    now i am {{stat ? 'triggered' : 'not triggered'}}
+  </button>
+</div>
+
+<div class="container">
+  <div class="box" [@test]="stat ? 'open' : 'close'"></div>
+</div>
